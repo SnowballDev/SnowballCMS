@@ -7,10 +7,13 @@ class SnowballCMS {
         this.config = SnowballCMS.initConfig(config);
         this.server = null;
 
+        // TODO: / should route to the main app
         this.app.get('/', (req, res) => {
             res.send('Hello World');
         });
 
+        // TODO: Admin files should authenticate
+        this.app.use('/admin', express.static('admin'));
     }
 
     static initConfig(config) {
