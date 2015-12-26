@@ -1,0 +1,22 @@
+{
+  "name": "snowballcms",
+  "version": "0.1.0",
+  "description": "A user friendly, scalable content management system",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowballDev/SnowballCMS.git"
+  },
+  "author": "Robby Emmert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnowballDev/SnowballCMS/issues"
+  },
+  "homepage": "https://github.com/SnowballDev/SnowballCMS#readme",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
